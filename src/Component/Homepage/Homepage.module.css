@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tools{
+    max-width: 295px;
+    height: 58.95px;
+    background: #F3F3F3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.tools_logo{
+    width: 31.69px;
+    height: 31.68px;
+    padding: 13.99px 0px 13.27px 68px;
+}
+.tools_text{
+    max-width: 59px !important;
+    height: 27.97px !important;
+    font-family: "Roboto" !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 28.13px !important;
+    padding: 13.99px 106px 16.98px 30.31px!important;
+    color: #707070 !important;
+}
+.bitcoin_arrng{
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bitcoin_baselogo{
+    width: 75px;
+    height: 75px;
+    
+}
+.bitcoin_text{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 10px !important;
+    color: #5843BE !important;
+    padding-left: 13px;
+}
+.comodity_one{
+    width: 270px;
+    height: 45px;
+    background-color: #C30F70;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comodity_one_select{
+    max-width: 100%;
+    height: 100%;
+    background-color:#C30F70;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.comodity_two{
+    width: 270px;
+    height: 45px;
+    background-color: #5843BE;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comodity_two_select{
+    max-width: 100%;
+    height: 100%;
+    background-color:#5843BE;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.pagecontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.menu_aarng{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.menu_size{
+    width: 313px;
+    height: 68.94px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor:  pointer;
+    border-radius: 12px;
+}
+.menu_size_display{
+    width: 313px;
+    height: 68.94px;
+    background-color: #5843BE;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.menu_icon{
+    width: 25px;
+    height: 25px;
+    padding-left: 41px;
+}
+.menu_text{
+    padding-left: 30px;
+}
+.main_content{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 840px){
+    .header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 5px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bitcoin_baselogo{
+        width: 35px;
+        height: 35px;
+        
+    }
+    .tools{
+        max-width: 252px;
+        height: 52px;
+        background: #F3F3F3;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .bitcoin_text{
+        font-family: 'Poppins' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        line-height: 10px !important;
+        color: #5843BE !important;
+        padding-left: 13px;
+    }.comodity_one{
+        width: 252px;
+        height: 45px;
+        background-color: #C30F70;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .comodity_one_select{
+        max-width: 100%;
+        height: 100%;
+        background-color:#C30F70;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        outline: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .comodity_two{
+        width: 252px;
+        height: 45px;
+        background-color: #5843BE;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .comodity_two_select{
+        max-width: 100%;
+        height: 100%;
+        background-color:#5843BE;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        outline: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .pagecontent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .menu_aarng{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .menu_size{
+        width: 180px;
+        height: 38px;
+        background-color: transparent;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        cursor:  pointer;
+        border-radius: 12px;
+    }
+    .menu_size_display{
+        width: 180px;
+        height: 38px;
+        background-color: #5843BE;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    .menu_icon{
+        width: 25px;
+        height: 25px;
+        padding-left: 3px;
+    }
+    .menu_text{
+        padding-left: 7px;
+    }
+    .main_content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
